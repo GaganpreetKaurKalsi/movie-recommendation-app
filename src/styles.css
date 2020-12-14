@@ -1,0 +1,146 @@
+:root {
+  --grey: rgb(27, 27, 27);
+}
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* padding : 10px; */
+  background-color: rgb(248, 248, 248);
+}
+body {
+  background-color: rgb(218, 218, 218);
+}
+
+.heading {
+  background-color: var(--grey);
+  color: rgb(248, 248, 248);
+  padding: 40px 20px;
+  padding-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.buttons {
+  background-color: var(--grey);
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+.button {
+  padding: 9px 12px;
+  margin: 6px;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.details {
+  width: 65%;
+  display: inline-block;
+  margin-left: 2%;
+  position: absolute;
+  overflow: auto;
+}
+.image-div {
+  width: 25%;
+  display: inline-block;
+  margin-right: 2%;
+  text-align: center;
+}
+.img {
+  align-content: center;
+  width : 128px;
+  height : 170px;
+}
+.mainbox {
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
+}
+.box {
+  width: 60vw;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 2px;
+  border: 2px solid rgb(165, 161, 161);
+  margin-bottom: 20px;
+  background-color: white;
+  position: relative;
+}
+.remove-pad {
+  padding: 0;
+}
+.details h2,
+.details p {
+  margin: 0;
+}
+
+.details-h {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.details-p{
+  color : rgb(51, 51, 51);
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding : 20px;
+  padding-bottom : 50px;
+}
+
+.icon {
+  color: white;
+  padding: 0 20px ;
+}
+
+.footer-desc{
+  color : white;
+  padding : 20px;
+  margin : 0;
+  font-size : 18px;
+  font-style: italic;
+  padding-bottom : 40px;
+
+}
+
+.social-icons{
+  max-width : 500px;
+  width : 50vw;
+  margin : auto;
+}
+
+@media (max-width:800px){
+  body{
+    margin : 0;
+  }
+  .details{
+    display : block;
+    width : 100%;
+    position : relative;
+    margin-top : 20px;
+    margin-left : 0px;
+  }
+  .image-div{
+    display : block;
+    width : 100%;
+    text-align : left;
+  }
+  .mainbox{
+    width : 100%;
+    margin : 0;
+    background-color: rgba(245, 245, 245, 0.692);
+  }
+  .button{
+    background-color : rgb(243, 243, 243);
+  }
+  .box{
+    width : 75vw;
+  }
+  .social-icons{
+    width : 90%;
+  }
+
+}
